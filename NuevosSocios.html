@@ -793,7 +793,7 @@
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="NuevosSocios.html" class="small-box-footer">Más Información <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="#" class="small-box-footer">Más Información <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- .Socios Presentes -->
@@ -840,44 +840,24 @@
             </div>
           </div>
         </div>
-          <!-- Lista de Socios Presentes --> 
-          <h3> Socixs Presentes </h3>
-          <table class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
-                <th scope="col">Correo electronico</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Evans</td>
-                <td>@gmail</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Johnny</td>
-                <td>Arvelo</td>
-                <td>@gmail</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Dio</td>
-                <td>Brando</td>
-                <td>@Sawardo</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Josept</td>
-                <td>Joustar</td>
-                <td>@JOJO</td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- Registro de nuevo socio --> 
+          <h3> Registro de Nuevo Socix </h3>
+          <form>
+            <div class="form-group">
+              <label for="nombreApellido">Nombre y Apellido</label>
+              <input type="nombre" class="form-control" id="nombreApellido" aria-describedby="nombreHelp" placeholder="Ingresar Nombre y Apellido">
+              <small id="nombreHelp" class="form-text text-muted">Estos datos seran su medio de identificación.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Esta Seguro ?</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
           <!-- ./col -->
         </div>
